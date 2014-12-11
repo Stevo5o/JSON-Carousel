@@ -15,7 +15,9 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
    border-radius:10px 10px 0 0;   
    width:95%;
    height:100%;
-   display: block;   
+   height:61px;
+   display: block;
+   border-bottom: 1px solid gold;
 }
 
 #characterbox h3, #characterbox h4 {
@@ -52,11 +54,13 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 
 #characterbox #next_btn, #characterbox #prev_btn {
    background-color:darkgoldenrod ;
-   padding: 5px 10px;
+   padding: 2px 20px;
    border-radius: 10px;
-   margin: 12px 5px;
+   margin: 15px 5px;
    display: inline-block;
    float: left;
+   border:1px solid gold;
+   font-weight: bold;  
 }
 
 #characterbox #prev_btn {
@@ -68,7 +72,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox #prev_btn:hover, #characterbox #next_btn:hover {
-   background-color:hotpink ;
+   background-color: hotpink;
 }
 
 #characterbox a#next_btn, #characterbox a#prev_btn {
@@ -83,8 +87,8 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox h2 { 
-   padding-top: 16px;
+   padding-top: 18px;
    
 }
 
-#characterbox #git{width:22px;margin-top:16px}
+#characterbox #git{width:22px;margin-top:18px}
