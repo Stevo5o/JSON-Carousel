@@ -1,0 +1,61 @@
+/* 
+    Created on : 11-Dec-2014, 12:56:19
+    Author     : Stephen
+*/
+
+@import url(//fonts.googleapis.com/css?family=Source+Code+Pro:200,400,500,700);
+body{background:silver;font-family:Source Code Pro;line-height:1.5em}
+h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:black}
+
+#characterbox{
+   width: 90%;  
+   margin: 0 auto;
+   background: goldenrod;
+   padding: 1px 20px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+#characterbox h3, #characterbox h4 {
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+}
+
+#characterbox h3 {
+   font-size: 2em;
+   line-height: .9em;
+   color: #115F79;
+}
+
+#characterbox h4 {
+   color: #973C26;
+   font-weight: bold;
+   margin-bottom: 5px;
+   line-height: 1.2em;
+}
+
+#characterbox img {
+   float: left;
+   margin-right: 10px;
+   border-radius: 10px;
+   width: 100px;
+}
+
+#characterbox p {
+   color: #1E3A40;
+   font-size: 85%;
+}
+
+#characterbox #next_btn, #characterbox #prev_btn {
+   background-color: #D33682;
+   padding: 5px 10px;
+   border-radius: 10px;
+   margin: 10px 0;
+   display: inline-block;   
+}
+
+#characterbox a#next_btn, #characterbox a#prev_btn {
+   text-decoration: none;   
+   color: #FFF;
+}
