@@ -54,7 +54,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
    background-color:darkgoldenrod ;
    padding: 5px 10px;
    border-radius: 10px;
-   margin: 10px 5px;
+   margin: 12px 5px;
    display: inline-block;
    float: left;
 }
@@ -64,7 +64,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox #next_btn {
-   margin-right: 16px;
+   margin-right: 0px;
 }
 
 #characterbox #prev_btn:hover, #characterbox #next_btn:hover {
@@ -83,5 +83,8 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox h2 { 
-   padding-top: 15px;
+   padding-top: 16px;
+   
 }
+
+#characterbox #git{width:22px;margin-top:16px}
