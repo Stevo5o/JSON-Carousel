@@ -15,8 +15,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
    border-radius:10px 10px 0 0;   
    width:95%;
    height:100%;
-   display: block;
-   
+   display: block;   
 }
 
 #characterbox h3, #characterbox h4 {
@@ -27,7 +26,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox h3 {
-   margin-top: 10px;
+   margin-top: 20px;
    font-size: 2em;
    line-height: .9em;
    color: #115F79;
@@ -37,8 +36,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
    margin-top: 10px;
    color: #973C26;
    font-weight: bold;   
-   line-height: 1.2em;
-   
+   line-height: 1.2em;   
 }
 
 #characterbox img {
@@ -74,11 +72,8 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
    color: #FFF;
 }
 
-
-
 .character
 {
    width:100%;
-   background-color: black;
-   
+   background-color: black;   
 }
