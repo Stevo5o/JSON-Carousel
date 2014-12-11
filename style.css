@@ -7,55 +7,78 @@
 body{background:silver;font-family:Source Code Pro;line-height:1.5em}
 h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:black}
 
-#characterbox{
-   width: 90%;  
+#characterbox{  
    margin: 0 auto;
    background: goldenrod;
-   padding: 1px 20px;
-   border-radius: 10px;
-   overflow: hidden;
+   -webkit-border-radius:10px 10px 0 0;
+   -moz-border-radius:10px 10px 0 0;
+   border-radius:10px 10px 0 0;   
+   width:95%;
+   height:100%;
+   display: block;
+   
 }
 
 #characterbox h3, #characterbox h4 {
    font-weight: bold;
    margin: 0;
-   padding: 0;
+   
+   padding: 0 2%;
 }
 
 #characterbox h3 {
+   margin-top: 10px;
    font-size: 2em;
    line-height: .9em;
    color: #115F79;
 }
 
 #characterbox h4 {
+   margin-top: 10px;
    color: #973C26;
-   font-weight: bold;
-   margin-bottom: 5px;
+   font-weight: bold;   
    line-height: 1.2em;
+   
 }
 
 #characterbox img {
    float: left;
-   margin-right: 10px;
+   margin: 20px 20px 0;
    border-radius: 10px;
    width: 100px;
 }
 
 #characterbox p {
-   color: #1E3A40;
-   font-size: 85%;
+   color: white; 
+   padding: 0 2%;
 }
 
 #characterbox #next_btn, #characterbox #prev_btn {
-   background-color: #D33682;
+   background-color:darkgoldenrod ;
    padding: 5px 10px;
    border-radius: 10px;
-   margin: 10px 0;
+   margin: 10px 0px;
    display: inline-block;   
+}
+
+#characterbox #prev_btn {
+   margin-left: 10px;
+}
+
+#characterbox #prev_btn:hover, #characterbox #next_btn:hover {
+   background-color:hotpink ;
 }
 
 #characterbox a#next_btn, #characterbox a#prev_btn {
    text-decoration: none;   
    color: #FFF;
+}
+
+
+
+.character
+{
+   width:100%;
+   background-color: black;
+   
 }
