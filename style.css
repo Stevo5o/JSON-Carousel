@@ -25,14 +25,14 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox h3 {
-   margin-top: 20px;
+   margin: 20px 10px 0px;
    font-size: 2em;
    line-height: .9em;
    color: #115F79;
 }
 
 #characterbox h4 {
-   margin-top: 10px;
+   margin: 10px 10px;
    color: #973C26;
    font-weight: bold;   
    line-height: 1.2em;   
@@ -47,7 +47,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 
 #characterbox p {
    color: white; 
-   padding: 0 2%;
+   padding: 0 20px;
 }
 
 #characterbox #next_btn, #characterbox #prev_btn {
@@ -60,7 +60,7 @@ h1{color:whitesmoke;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:bla
 }
 
 #characterbox #prev_btn {
-   margin-left: 10px;
+   margin-left: 20px;
 }
 
 #characterbox #next_btn {
