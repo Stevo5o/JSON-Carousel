@@ -15,17 +15,15 @@
             <img id="git" src="images/github.png" alt="github"/></a> 
          <h2>JSON Carousel</h2>                 
          <div id="carousel"></div>          
-      </div>
-      
-
+      </div>  
       <!-- {{ mustache.js }} placeholders to target different JSON elements -->
+      <script type="text/javascript"></script>
       <script id="characterstpl" type="text/template">      
       {{#characters}}
       <div class="character">
-         <img src="images/{{shortname}}_tn.jpg" alt="Photo of {{name}}" />
-         <h3>{{name}}</h3>
-         <h4>{{reknown}}</h4>
-         <p>{{bio}}</p>
+      <div class="book"> <img src="images/{{shortname}}_tn1.jpg" alt="Photo of {{name}}" /></div>
+      <div class="book">  <img src="images/{{shortname}}_tn2.jpg" alt="Photo of {{name}}" /></div>
+      <div class="book">   <img src="images/{{shortname}}_tn3.jpg" alt="Photo of {{name}}" /></div>
        </div>
          {{/characters}}
       </script>
@@ -45,6 +43,7 @@
                $('#carousel').html(html);
                
                $('#carousel').cycle({
+               
                   fx: 'fade',
                   pause: 1,
                   next: '#next_btn',
@@ -53,7 +52,7 @@
                   slideResize: true,
                  containerResize: false,
                  width: '100%',
-                 fit: 1,
+                 fit: 3,
                   timeout: 10000                  
                }); // cycle.js 
             }); // getJSON            
